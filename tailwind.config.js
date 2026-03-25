@@ -1,27 +1,28 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        brand: {
-          orange: '#f97316',
-          amber: '#fb923c',
-          black: '#09090b',
-          charcoal: '#18181b',
-          slate: '#27272a',
-          silver: '#a1a1aa',
-          white: '#fafafa'
-        }
+        dsl: {
+          black: '#0A0A0A',
+          panel: '#111111',
+          soft: '#1A1A1A',
+          gray: '#A3A3A3',
+          line: '#262626',
+          orange: '#F97316',
+          orangeSoft: '#FB923C',
+          white: '#FAFAFA',
+        },
       },
       boxShadow: {
-        glow: '0 0 0 1px rgba(249,115,22,0.18), 0 10px 40px rgba(249,115,22,0.18)',
-        panel: '0 12px 40px rgba(0,0,0,0.35)'
+        glow: '0 0 0 1px rgba(249, 115, 22, 0.15), 0 10px 30px rgba(249, 115, 22, 0.08)',
       },
       backgroundImage: {
-        'hero-grid': 'radial-gradient(circle at top right, rgba(249,115,22,0.22), transparent 35%), radial-gradient(circle at bottom left, rgba(255,255,255,0.06), transparent 28%)'
-      }
-    }
+        'hero-glow':
+          'radial-gradient(circle at top right, rgba(249,115,22,0.22), transparent 28%), radial-gradient(circle at left center, rgba(255,255,255,0.06), transparent 22%)',
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 }
