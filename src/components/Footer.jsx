@@ -13,8 +13,8 @@ const Footer = () => {
         </div>
 
         <div className="text-sm text-dsl-gray">
-          <p>Email: your@email.com</p>
-          <p>Phone: (000) 000-0000</p>
+          <p>Email: dispatch@drivensmartlogistics.com</p>
+          <p>Phone: (904) 643-3050</p>
         </div>
       </div>
     </footer>

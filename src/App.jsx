@@ -347,12 +347,12 @@ function App() {
                   </p>
 
                   <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                    <a href="mailto:your@email.com" className="primary-btn">
-                      Email Us
+                    <a href="mailto:dispatch@drivensmartlogistics.com" className="primary-btn">
+                             Email Us
                     </a>
-                    <a href="tel:0000000000" className="secondary-btn">
-                      Call Now
-                    </a>
+                  <a href="tel:9046433050" className="secondary-btn">
+                             Call Now
+                        </a>
                   </div>
                 </div>
 
@@ -361,9 +361,9 @@ function App() {
                     <PhoneCall className="text-dsl-orange" size={20} />
                     <h3 className="mt-4 text-lg font-semibold">Contact</h3>
                     <p className="mt-3 text-sm leading-7 text-dsl-gray">
-                      Phone: (000) 000-0000
+                      Phone: (904) 643-3050
                       <br />
-                      Email: your@email.com
+                      Email: dispatch@drivensmartlogistics.com
                     </p>
                   </div>
 
